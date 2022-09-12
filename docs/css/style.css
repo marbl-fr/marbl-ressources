@@ -1,0 +1,1083 @@
+/* ================================= */
+
+/* ---------- General CSS ---------- */
+
+/* ================================= */
+
+body {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Silka';
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #631aff;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.h5-centered {
+    font-family: Silka;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.h-100 {
+    height: 838px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 793px;
+    margin-right: auto;
+    margin-left: auto;
+    /* overflow: hidden; */
+}
+
+.main,
+#header {
+    padding: 0 15px;
+}
+
+.bg-color-blue {
+    background: #631AFF;
+}
+
+.line-heading {
+    position: relative;
+    margin-top: 30px;
+}
+
+.line-heading::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #631AFF;
+    width: 100%;
+    height: 7px;
+    border-radius: 40px 0 0 40px;
+}
+
+.line-heading h2 {
+    position: relative;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    color: #631AFF;
+    margin: 0;
+    z-index: 1;
+    background: #fff;
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+
+.heading-lg {
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 47px;
+    color: #631AFF;
+}
+
+.italic-note {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.avoid-page-break {
+    page-break-inside: avoid;
+}
+
+/* ================================= */
+
+/* ---------- Header CSS ----------- */
+
+/* ================================= */
+
+/* ================================= */
+
+/* ---------- Footer CSS ----------- */
+
+/* ================================= */
+
+.footer-content {
+    padding: 30px;
+    background: #f4f4f4;
+    margin-top: 80px;
+    border-radius: 7px;
+    page-break-inside: avoid;
+}
+
+.footer-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list li {
+    color: #000;
+    font-size: 11px;
+}
+
+.footer-list li img {
+    width: 20px;
+}
+
+.footer-list li.legal-footer {
+    flex: 0 0 100%;
+    max-width: 100%;
+    font-size: 10px;
+    line-height: 16px;
+    margin: 20px 0 0 0;
+    text-align: justify;
+}
+
+/* ================================= */
+
+/* ------ Equal Setion Block ------- */
+
+/* ================================= */
+
+.equal-section {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #631aff;
+    overflow: hidden;
+    page-break-inside: avoid;
+}
+
+.equal-section h3,
+.text-card-wrapp .equal-section img {
+    flex: 0 0 200px;
+    max-width: 200px;
+    width: 100%;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #631AFF;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0 10px 20px;
+}
+
+.equal-section.note {
+    border: 2px solid #f5f5f5;
+}
+
+.equal-section.note img {
+    background: #f5f5f5;
+}
+
+.text-card-wrapp .equal-section img {
+    padding: 0 50px;
+    flex: 0 0 140px;
+    max-width: 140px;
+}
+
+.equal-section-block {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 12px 30px;
+}
+
+.equal-section p {
+    font-family: 'silka-regular-webfont';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.equal-section p:last-child {
+    margin-bottom: 0;
+}
+
+.text-card-box .equal-section {
+    margin: 15px 0;
+}
+
+/** Address Block **/
+
+.address-block {
+    border-left: 8px solid #631AFF;
+}
+
+.address-block p {
+    font-family: 'silka-regular-webfont';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    margin: 35px 0 0 25px;
+    text-transform: uppercase;
+}
+
+/****/
+
+.choice-per-wrapp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 30px -15px 0 -15px;
+}
+
+.choice-per-col {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 15px;
+}
+
+.choice-per-col-box {
+    /* border: 1px solid #93882A; */
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    position: relative;
+    padding: 60px 10px 30px 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+}
+
+.choice-per-col:first-child .choice-per-col-box {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    background-color: #ffffff;
+    border: 1px solid #631aff;
+}
+
+.choice-per-col-box span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #979797;
+    border-radius: 40px;
+    padding: 6px 15px;
+    color: #fff;
+}
+
+.choice-per-col:first-child .choice-per-col-box span {
+    background: #631aff;
+}
+
+.choice-per-col-box h5 {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    color: #631AFF;
+    font-family: 'Gt ultra fine';
+    font-size: 11px;
+}
+
+.choice-per-col-box h5 img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.choice-per-col-box p {
+    font-size: 10px;
+}
+
+.choice-per-col-box .dotted-list li {
+    font-size: 10px;
+}
+
+/* ================================= */
+
+/* ----------- Text Card ----------- */
+
+/* ================================= */
+
+.text-card-wrapp {
+    background: #FFFFFF;
+    border: 1px solid #631AFF;
+    border-radius: 7px;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.text-card-box {
+    padding: 7px 20px;
+}
+
+.text-card-wrapp h3 {
+    margin: 0;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    display: block;
+    background: #631AFF;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.left-heading .text-card-wrapp h3 {
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.text-card-wrapp p {
+    font-family: 'silka-regular-webfont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    margin: 7px 0;
+}
+
+.text-card-wrapp p span,
+.text-card-wrapp ul li span,
+.h6 span {
+    color: #631AFF;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.text-card-wrapp ul {
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+
+.text-card-wrapp ul li {
+    /* font-size: 13px; WHY IS IT DIFFERENT ? */
+}
+
+/** Plain text box **/
+
+.plain-text-box {
+    background: #F5F5F5;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 35px;
+    margin-top: 30px;
+    page-break-inside: avoid;
+}
+
+.plain-text-box p,
+.plain-text-box ul li {
+    font-family: 'silka-regular-webfont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #555555;
+    margin: 7px 0;
+}
+
+/* a modifier */
+
+.plain-text-box h3 {
+    margin: 0;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color: #555555;
+}
+
+/****/
+
+.text-card-inner {
+    /* display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox; */
+    display: flex;
+    /* -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; */
+    /* padding: 20px; */
+}
+
+.text-card-inner1 {
+    /* -webkit-box-flex: 0;
+    -webkit-flex: 0 0 65%;
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%; */
+    /* display: inline; */
+    padding: 20px;
+    width: 65%;
+}
+
+.text-card-inner2 {
+    display: flex;
+    padding: 20px;
+    width: 35%;
+    /* height: 100%; */
+    /* margin: 0; */
+}
+
+.bg-fill-card {
+    background: #631aff;
+    border-radius: 7px;
+    border: 1px solid #631aff;
+    overflow: hidden;
+    margin: 10px 0 10px 0;
+}
+
+/* .bg-fill-card .text-card-inner1 {
+    padding: 0 15px;
+    width: 65%;
+} */
+
+.bg-fill-card .text-card-inner2 {
+    background: #fff;
+    /* flex: 0 0 35%; */
+    /* max-width: 35%; */
+    /* width: 35%; */
+}
+
+.text-card-inner1 h6 {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+}
+
+.bg-fill-card .text-card-inner1 h6 {
+    color: #fff;
+}
+
+.bg-fill-card .text-card-inner1 p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* .bg-fill-card .text-card-inner2 h5 span {
+    display: block;
+    color: #93882A;
+    font-size: 12px;
+    line-height: 16px;
+} */
+
+.bg-fill-card .text-card-inner1 p span {
+    /* color: #FFB4C1; */
+    color: #FFB4C1;
+}
+
+.big-number-wrapper {
+    /* display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox; */
+    display: flex;
+    /* -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center; */
+    align-items: center;
+}
+
+.big-number-wrapper img {
+    max-width: 45px;
+    width: 100%;
+    margin-right: 35px;
+}
+
+.big-number {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: block flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #631AFF;
+    margin: 0;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    display: block;
+}
+
+.big-number.smaller {
+    font-size: 18px;
+}
+
+.big-number-legend {
+    display: block;
+    color: #93882A;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/** Table **/
+
+.table {
+    width: 100%;
+    margin: 30px 0 20px 0;
+    padding: 0 0 30px 0;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px #000;
+    border-radius: 10px;
+    page-break-inside: avoid;
+}
+
+.table tr {
+    border-bottom: 1px solid #000;
+}
+
+.table tr:last-child {
+    border-bottom: none;
+}
+
+.table tr td {
+    padding: 8px 20px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.table tr td:first-child {
+    border-radius: 10px 0 0 10px;
+    border-right: 1px solid #000;
+    min-width: 70px;
+}
+
+.table tr td:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+/****/
+
+.table-wrapp2 {
+    flex: 0 0 15%;
+    max-width: 15%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* a modifier */
+
+.table-wrapp2 h3 {
+    font-size: 18px;
+    margin: 15px 0;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    color: #631AFF;
+}
+
+.table-wrapp2 span {
+    font-size: 10px;
+    color: #93882A;
+}
+
+.text-card-wrapp p.green-text {
+    color: #07CD85;
+    margin: 15px 0;
+}
+
+.text-card-wrapp p.red-text {
+    color: #FF474E;
+}
+
+/****/
+
+.icon-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icon-img img {
+    max-width: 30px;
+}
+
+.print-box {
+    display: flex;
+}
+
+.print-box p {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 20px 0;
+}
+
+.print-box p a {
+    display: inline-block;
+    color: #631AFF;
+    margin-left: 5px;
+}
+
+/****/
+
+.two-equal-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* ================================= */
+
+/* ------- SIGNATURE Form CSS ------ */
+
+/* ================================= */
+
+.form-block {
+    background: #F5F5F5;
+    padding: 30px 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    page-break-inside: avoid;
+}
+
+.form-block-first-row,
+.form-block-second-row,
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.form-block-first-row {
+    margin-bottom: 30px;
+}
+
+.form-col65 {
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%;
+    max-width: 65%;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.form-col35 {
+    -ms-flex: 0 0 35%;
+    flex: 0 0 35%;
+    max-width: 35%;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.col-5 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.form-block .form-block-first-row label {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #631AFF;
+    white-space: nowrap;
+}
+
+.form-block .form-block-second-row label {
+    display: block;
+    color: #631AFF;
+    font-size: 13px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.form-block input,
+.form-block textarea {
+    display: block;
+    width: 100%;
+    height: 38px;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #631AFF;
+    padding: 0 15px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-block textarea {
+    height: 120px;
+}
+
+.form-block .form-block-first-row input {
+    margin-left: 15px;
+}
+
+::placeholder {
+    color: transparent;
+    font-size: 12px;
+    padding-top: 90px;
+}
+
+/* ================================= */
+
+/* -------- Cover Page Content ----- */
+
+/* ================================= */
+
+.coverPage .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.page-cover-img {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+}
+
+.page-cover-img img {
+    width: 100%;
+}
+
+.page-cover-detail {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.logo-bottom {
+    max-width: 120px;
+    width: 100%;
+}
+
+.logo-bottom img {
+    width: 100%;
+}
+
+.page-cover-detail h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.page-cover-detail h1 span {
+    display: block;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 34px;
+}
+
+/** Welcome Page Cover **/
+
+.wellcome-page .page-cover-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.logo-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.logo-text img {
+    width: 90px;
+}
+
+.logo-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFB4C1;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.logo-bottom-lg {
+    max-width: 280px;
+    width: 100%;
+}
+
+.logo-bottom-lg img {
+    width: 100%;
+}
+
+.logo-text span {
+    background: #fff;
+    height: 25px;
+    width: 1px;
+    display: inline-block;
+    margin: 0 16px;
+}
+
+/** Page Three **/
+
+.page-three-block .row {
+    align-items: center;
+}
+
+.left-side-img {
+    padding: 0 0 0 30px;
+}
+
+.left-side-img img {
+    width: 100%;
+}
+
+.page-three-block p,
+.page-three-block .text-gris,
+.page-three-block .text-bold {
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    text-align: justify;
+}
+
+.page-three-block .text-bold {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.page-three-block .text-gris {
+    color: #939393;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+/* ================================= */
+
+/* -------- Welcome page 4 --------- */
+
+/* ================================= */
+
+/** Page 4 **/
+
+.welcome-page4-wrap .col-5 {
+    margin: 0 0 25px 0;
+}
+
+.welcome-page4-wrapp .col-5:nth-child(even) {
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.welcome-page4-wrapp .col-5:nth-child(odd) {
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+.welcome-page4-wrapp .welcome-page4-heading:nth-child(2n+1) {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.welcome-page4-heading h2 {
+    font-family: 'GT Ultra Fine';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    color: #631AFF;
+}
+
+.welcome-page4 {
+    background: transparent;
+    border: 1px solid #631AFF;
+    border-radius: 20px;
+    padding: 15px 35px 10px 35px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.welcome-page4::before {
+    position: absolute;
+    content: "";
+    height: 145px;
+    width: 145px;
+    background: #631AFF;
+    border-radius: 50%;
+    left: -50px;
+    top: -50px;
+    z-index: -1;
+}
+
+.welcome-page4 img {
+    margin-bottom: 10px;
+}
+
+.welcome-page4 span {
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 47px;
+    margin-right: 30px;
+}
+
+.welcome-page4 h3 {
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000;
+    margin: 0 0 10px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.welcome-page4 p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin: 15px 0;
+}
+
+.welcome-page4 p strong {
+    font-weight: 700;
+    font-family: 'Silka';
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+}
+
+.card-pill {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 100px;
+    background: #777777;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 3px;
+}
+
+.semi-transparent {
+    opacity: 0.55;
+    /* filter: saturate(0); */
+}
+
+.dark-bg #header,
+.main .dark-bg {
+    max-width: 1122px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #631AFF;
+}

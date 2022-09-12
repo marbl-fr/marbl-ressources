@@ -1,0 +1,191 @@
+/* ================================= */
+/* -- Overall page styling --------- */
+/* ================================= */
+.coverPage {
+    background-color: #631aff;
+    height: 1120px;
+    width: 793px;
+    overflow: hidden;
+    position: relative;
+}
+
+.coverPage:empty {
+    grid-area: coverPage;
+    display: none;
+}
+
+.docTablePage {
+    padding: 0 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.docTablePage:empty {
+    grid-area: docTablePage;
+    display: none;
+}
+
+/* .page-side-title-content {
+    margin-left: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+} */
+
+.pagedjs_page .pagedjs_margin-right-middle>.pagedjs_margin-content::after {
+    content: counter(page);
+    width: 24px;
+    height: 24px;
+    border: 1px solid #555;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pagedjs_page .pagedjs_margin-left-middle>.pagedjs_margin-content::after {
+    content: string(title);
+    margin-left: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+
+/* ================================= */
+/* -- Paged.JS for handling PAGES -- */
+/* ================================= */
+#page-header {
+    position: running(pageHeader);
+}
+
+#page-side-title {
+    position: running(pageSideTitle);
+}
+
+#page-number {
+    height: 20px;
+    width: 20px;
+    position: running(pageNumber);
+}
+
+h1 {
+    string-set: title content(text);
+}
+
+@page {
+    size: 793px 1120px;
+    margin: 80px 60px 50px 60px;
+
+    @top-center {
+        content: element(pageHeader);
+    }
+
+    @right-middle {
+        content: counter(page)
+    }
+
+    @bottom-center {
+        content: none;
+        background: #ffffff;
+    }
+
+    @left-middle {
+        content: string(title)
+    }
+
+    @bottom-left-corner {
+        content: element(filler);
+        background: #ffffff;
+    }
+
+    @bottom-right-corner {
+        content: element(filler);
+        background: #ffffff;
+    }
+}
+
+.coverPage {
+    page: coverLayout;
+}
+
+@page coverLayout {
+    margin: 0;
+
+    @top-center {
+        content: none;
+    }
+
+    @right-middle {
+        content: none
+    }
+
+    @bottom-center {
+        content: none;
+    }
+
+    @left-middle {
+        content: none
+    }
+}
+
+.coverPage:empty {
+    display: none;
+}
+
+.docTablePage {
+    page: docTableLayout;
+}
+
+@page docTableLayout {
+    margin: 80px 0 0 0;
+
+    @top-center {
+        content: element(pageHeader);
+    }
+
+    @right-middle {
+        content: counter(page)
+    }
+
+    @left-middle {
+        content: string(title)
+    }
+
+    @bottom-center {
+        content: none;
+    }
+}
+
+.introPage {
+    page: introLayout;
+}
+
+@page introLayout {
+    margin: 80px 0px 80px 60px;
+
+    @top-center {
+        content: element(pageHeader);
+    }
+
+    @right-middle {
+        content: none;
+    }
+
+    @bottom-center {
+        content: none;
+        background: #ffffff;
+    }
+
+    @left-middle {
+        content: none;
+    }
+
+    @bottom-left-corner {
+        content: none;
+        background: #ffffff;
+    }
+
+    @bottom-right-corner {
+        content: none;
+        background: #ffffff;
+    }
+}

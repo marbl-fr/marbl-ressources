@@ -1,0 +1,141 @@
+/* ================================= */
+
+/* ---------- Fonts CSS ------------ */
+
+/* ================================= */
+
+@font-face {
+    font-family: 'Gt ultra fine';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cd3eea253ee9111c1515_GT-Ultra-Fine-Black.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/61a14ea7fb8646ba2c2ece6b_GT-Ultra-Fine-Black.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cd3e1c09440a5209a087_GT-Ultra-Fine-Black.ttf') format('truetype'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cd3e2720bff7b3c7e581_GT-Ultra-Fine-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc2229401665b2bfa45_silka-medium-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ada8fb258e087c3f565d_silka-medium-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc17751082f2d89b9b4_silka-medium-webfont.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc25cfb3e01ba497367_silka-semibold-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ada8f434880a0f910a86_silka-semibold-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc264c6712f8cbf2f48_silka-semibold-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc2c0458f42a89139b3_silka-thin-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ada8ef7162d33f9a9e13_silka-thin-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc27bd9971cbb9a2656_silka-thin-webfont.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc1ff4e418588d07c68_silka-regular-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/61a14f26e18d76dcbef0d199_silka-regular-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc2b92048b228018c01_silka-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc1f76ad4f2d79d8898_silka-light-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ada85d711b489dcaf634_silka-light-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc1f76ad4837e9d8897_silka-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc12a7b386d310b0b58_silka-bold-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ada86f3c307af26ac76a_silka-bold-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc1f6007879a207aaf8_silka-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc11c0944e73609a20e_silka-black-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ada8fb258ed0c83f565e_silka-black-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc12615626edfc0b8fc_silka-black-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc12720bf864fc7e6ef_silka-extralight-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ada872bfc91f14e07d13_silka-extralight-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299cdc11c09440e6209a20f_silka-extralight-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce35b920481e69018de0_silka-thinitalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ae2374746c93f810dc85_silka-thinitalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce3494ea0f37c5efac45_silka-thinitalic-webfont.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34a6cdac630455cd12_silka-bolditalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ae233cd8b98c58e04f44_silka-bolditalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34f76ad4118a9d89b0_silka-bolditalic-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34393d6d15dd24b1e9_silka-semibolditalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ae23f035da36691a2b12_silka-semibolditalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34ac2da919aaa1e7a9_silka-semibolditalic-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce3404da8eb7d0d1e32f_silka-regularitalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/61a14f26e18d7618f0f0d19a_silka-regularitalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34c0458f7433913bd5_silka-regularitalic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34e373a5647f892608_silka-mediumitalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ae23ca15ed1774096c2f_silka-mediumitalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34003807100471e875_silka-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34775108bd4e89bde7_silka-lightitalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ae2372bfc92382e07ff1_silka-lightitalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce359a562a3b5ce2c77b_silka-lightitalic-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34e02ccc599272528a_silka-extralightitalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ae23518d88db2258b688_silka-extralightitalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34f0f07ff562150abd_silka-extralightitalic-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Silka';
+    src: url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce34e02ccc77ae725289_silka-blackitalic-webfont.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6298ae23a5484784500ae2b5_silka-blackitalic-webfont.woff') format('woff'), url('https://uploads-ssl.webflow.com/6151697fd8389f852e68e99f/6299ce347b79407cf4378060_silka-blackitalic-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
