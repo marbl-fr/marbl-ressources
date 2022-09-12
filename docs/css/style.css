@@ -214,16 +214,28 @@ textarea {
 
 .equal-section.note {
     border: 2px solid #f5f5f5;
+    width: 100%;
+    background: #f5f5f5;
 }
 
 .equal-section.note img {
-    background: #f5f5f5;
+    background: #ffffff00;
+    margin: auto;
+    width: 100px;
+    height: auto;
 }
 
 .text-card-wrapp .equal-section img {
     padding: 0 50px;
     flex: 0 0 140px;
     max-width: 140px;
+}
+
+img {
+    background: #ffffff00;
+    margin: auto;
+    width: auto;
+    height: auto;
 }
 
 .equal-section-block {
