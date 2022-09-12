@@ -1,12 +1,16 @@
 /* ================================= */
 /* -- Overall page styling --------- */
 /* ================================= */
-.coverPage {
-    background-color: #631aff;
+
+.singlePage {
     height: 1120px;
     width: 793px;
     overflow: hidden;
     position: relative;
+}
+
+.coverPage {
+    background-color: #631aff;
 }
 
 .coverPage:empty {

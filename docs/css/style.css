@@ -56,13 +56,6 @@ textarea {
     /* overflow: hidden; */
 }
 
-.main,
-#header {
-    padding: 0 15px;
-}
-
-
-
 .line-heading {
     position: relative;
     margin-top: 30px;
@@ -749,14 +742,6 @@ h6 {
 .semi-transparent {
     opacity: 0.55;
     /* filter: saturate(0); */
-}
-
-.dark-bg #header,
-.main .dark-bg {
-    max-width: 1122px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #631AFF;
 }
 
 .row {
