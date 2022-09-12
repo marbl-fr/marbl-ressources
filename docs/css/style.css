@@ -772,3 +772,38 @@ h6 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+
+/** Page Three **/
+
+.page-three-block .row {
+    align-items: center;
+}
+
+.left-side-img {
+    padding: 0 0 0 30px;
+}
+
+.left-side-img img {
+    width: 100%;
+}
+
+.page-three-block p,
+.page-three-block .text-gris,
+.page-three-block .text-bold {
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    text-align: justify;
+}
+
+.page-three-block .text-bold {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.page-three-block .text-gris {
+    color: #939393;
+    font-weight: 600;
+    margin: 30px 0;
+}
