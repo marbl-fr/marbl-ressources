@@ -1,0 +1,101 @@
+/* ================================= */
+
+/* -------- Sommaire cards welcome pack --------- */
+
+/* ================================= */
+
+.sommaire-grid-container {
+    width: 673px;
+}
+
+.grid-sommaire {
+    width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 290px 290px;
+    gap: 20px;
+}
+
+.sommaire-heading h2 {
+    font-family: 'GT Ultra Fine';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 38px;
+    color: #631AFF;
+    max-width: 260px;
+}
+
+.sommaire-card {
+    background: transparent;
+    border: 1px solid #631AFF;
+    border-radius: 20px;
+    padding: 15px 35px 10px 35px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sommaire-card::before {
+    position: absolute;
+    content: "";
+    height: 145px;
+    width: 145px;
+    background: #631AFF;
+    border-radius: 50%;
+    left: -50px;
+    top: -50px;
+    z-index: -1;
+}
+
+.sommaire-card img {
+    margin-bottom: 5px;
+    max-width: 90px;
+}
+
+.sommaire-card span {
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 47px;
+    margin-right: 30px;
+}
+
+.sommaire-card h3 {
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000;
+    margin: 0 0 10px 0;
+    display: flex;
+}
+
+.sommaire-card p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin: 15px 0;
+}
+
+.sommaire-card p strong {
+    font-weight: 700;
+}
+
+.card-pill {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 100px;
+    background: #777777;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 3px;
+}
+
+.semi-transparent {
+    opacity: 0.55;
+    /* filter: saturate(0); */
+}
