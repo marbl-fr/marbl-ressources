@@ -110,38 +110,10 @@ h1 {
     }
 }
 
-@page introLayout {
-    margin: 80px 0px 80px 60px;
-
-    @bottom-center {
-        content: none;
-        background: #ffffff;
-    }
-
-    @left-middle {
-        content: none;
-    }
-
-    @bottom-left-corner {
-        content: none;
-        background: #ffffff;
-    }
-
-    @bottom-right-corner {
-        content: none;
-        background: #ffffff;
-    }
-}
-
-
 /* ================================= */
 /* -- Assign layouts to classes -- */
 /* ================================= */
 
 .coverPage {
     page: coverLayout;
-}
-
-.introPage {
-    page: introLayout;
 }
