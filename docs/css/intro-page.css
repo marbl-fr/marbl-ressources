@@ -1,0 +1,46 @@
+/* ================================= */
+/* -- Introduction page --------- */
+/* ================================= */
+
+.wrapper-introduction-doc {
+    display: grid;
+}
+
+.introduction-doc {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.right-side-img {
+    // padding: 0 0 0 30px;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 220px;
+}
+
+.right-side-img img {
+    width: 100%;
+}
+
+.introduction-doc p,
+.introduction-doc .text-gris,
+.introduction-doc .text-bold {
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    text-align: justify;
+}
+
+.introduction-doc .text-bold {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.introduction-doc .text-gris {
+    color: #939393;
+    font-weight: 600;
+    margin: 30px 0;
+}
