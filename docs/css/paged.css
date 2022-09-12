@@ -18,6 +18,10 @@
     display: none;
 }
 
+.coverPage:empty {
+    display: none;
+}
+
 .docTablePage {
     padding: 0 60px;
 }
@@ -46,8 +50,10 @@
 }
 
 
+
+
 /* ================================= */
-/* -- Paged.JS for handling PAGES -- */
+/* -- Fetch content to insert -- */
 /* ================================= */
 #page-header {
     position: running(pageHeader);
@@ -66,6 +72,11 @@
 h1 {
     string-set: title content(text);
 }
+
+
+/* ================================= */
+/* -- Define layouts -- */
+/* ================================= */
 
 @page {
     size: 793px 1120px;
@@ -99,10 +110,6 @@ h1 {
     }
 }
 
-.coverPage {
-    page: coverLayout;
-}
-
 @page coverLayout {
     margin: 0;
 
@@ -123,24 +130,8 @@ h1 {
     }
 }
 
-.coverPage:empty {
-    display: none;
-}
-
-.docTablePage {
-    page: docTableLayout;
-}
-
 @page docTableLayout {
     margin: 80px 0 0 0;
-
-    @top-center {
-        content: element(pageHeader);
-    }
-
-    @right-middle {
-        content: counter(page)
-    }
 
     @left-middle {
         content: string(title)
@@ -151,20 +142,8 @@ h1 {
     }
 }
 
-.introPage {
-    page: introLayout;
-}
-
 @page introLayout {
     margin: 80px 0px 80px 60px;
-
-    @top-center {
-        content: element(pageHeader);
-    }
-
-    @right-middle {
-        content: none;
-    }
 
     @bottom-center {
         content: none;
@@ -184,4 +163,21 @@ h1 {
         content: none;
         background: #ffffff;
     }
+}
+
+
+/* ================================= */
+/* -- Assign layouts to classes -- */
+/* ================================= */
+
+.coverPage {
+    page: coverLayout;
+}
+
+.docTablePage {
+    page: docTableLayout;
+}
+
+.introPage {
+    page: introLayout;
 }
