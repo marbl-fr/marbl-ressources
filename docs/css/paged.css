@@ -19,21 +19,13 @@
 }
 
 .docTablePage {
-    padding: 0 60px;
-    overflow: hidden;
-    position: relative;
+    padding: 0 160px;
 }
 
 .docTablePage:empty {
     grid-area: docTablePage;
     display: none;
 }
-
-/* .page-side-title-content {
-    margin-left: 20px;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-} */
 
 .pagedjs_page .pagedjs_margin-right-middle>.pagedjs_margin-content::after {
     content: counter(page);
