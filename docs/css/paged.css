@@ -7,11 +7,19 @@
     width: 793px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .coverPage {
     background-color: #631aff;
+    padding: 80px;
 }
+
+/* ================================= */
+/* -- margin-content styling  --------- */
+/* ================================= */
 
 .pagedjs_page .pagedjs_margin-right-middle>.pagedjs_margin-content::after {
     content: counter(page);
@@ -30,7 +38,6 @@
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
-
 
 /* ================================= */
 /* -- Fetch content to insert -- */
