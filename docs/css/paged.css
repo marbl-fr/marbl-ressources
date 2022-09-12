@@ -46,8 +46,6 @@
 }
 
 
-
-
 /* ================================= */
 /* -- Fetch content to insert -- */
 /* ================================= */
@@ -126,16 +124,6 @@ h1 {
     }
 }
 
-@page docTableLayout {
-    @right-middle {
-        content: none;
-    }
-
-    @left-middle {
-        content: none;
-    }
-}
-
 @page introLayout {
     margin: 80px 0px 80px 60px;
 
@@ -166,10 +154,6 @@ h1 {
 
 .coverPage {
     page: coverLayout;
-}
-
-.docTablePage {
-    page: docTableLayout;
 }
 
 .introPage {
