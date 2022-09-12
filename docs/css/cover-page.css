@@ -9,7 +9,11 @@
 .page-cover-img {
     max-width: 520px;
     width: 100%;
-    margin: 0 auto 30px auto;
+    margin: auto;
+}
+
+.page-cover-img.smaller {
+    max-width: 340px;
 }
 
 .page-cover-img img {
@@ -48,17 +52,19 @@
 
 .page-de-garde-title {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: space-between;
     margin-top: 45px;
 }
 
 .page-de-garde-title img {
     width: 90px;
+    margin-left: 0;
 }
 
 .page-de-garde-title p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 32px;
     color: #FFB4C1;
     text-transform: uppercase;
@@ -74,19 +80,10 @@
     width: 100%;
 }
 
-.logo-bottom-lg {
-    max-width: 280px;
-    width: 100%;
-}
-
-.logo-bottom-lg img {
-    width: 100%;
-}
-
-.logo-text span {
+.page-de-garde-title span {
     background: #fff;
     height: 25px;
     width: 1px;
-    display: inline-block;
-    margin: 0 16px;
+    /* display: inline-block; */
+    margin: auto;
 }
