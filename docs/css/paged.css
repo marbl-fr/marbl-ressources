@@ -13,20 +13,6 @@
     background-color: #631aff;
 }
 
-.coverPage:empty {
-    grid-area: coverPage;
-    display: none;
-}
-
-.coverPage:empty {
-    display: none;
-}
-
-.docTablePage:empty {
-    grid-area: docTablePage;
-    display: none;
-}
-
 .pagedjs_page .pagedjs_margin-right-middle>.pagedjs_margin-content::after {
     content: counter(page);
     width: 24px;
