@@ -120,11 +120,7 @@ h3 {
 /* ================================= */
 
 .equal-section {
-    -webkit-border-radius: 10px;
     border-radius: 10px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     border: 1px solid #631aff;
     overflow: hidden;
@@ -141,14 +137,8 @@ h3 {
     font-size: 22px;
     line-height: 26px;
     color: #fff;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     background: #631AFF;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
     padding: 10px 0 10px 20px;
@@ -223,20 +213,12 @@ img {
 /****/
 
 .choice-per-wrapp {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
 }
 
 .choice-per-col {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.33%;
-    -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
     padding: 0 15px;
@@ -249,14 +231,11 @@ img {
     position: relative;
     padding: 60px 10px 30px 10px;
     filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
     transition: filter 600ms ease;
-    -webkit-transition: -webkit-filter 600ms ease;
 }
 
 .choice-per-col:first-child .choice-per-col-box {
     filter: grayscale(0);
-    -webkit-filter: grayscale(0);
     background-color: #ffffff;
     border: 1px solid #631aff;
 }
@@ -491,12 +470,6 @@ h6 {
 /****/
 
 .two-equal-section {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
 }
