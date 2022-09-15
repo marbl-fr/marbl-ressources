@@ -76,12 +76,11 @@
 }
 
 .bg-violet p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.bg-violet h2,
+.bg-violet h3,
+.bg-violet h4,
+.bg-violet h5,
+.bg-violet h6 {
     color: #fff;
 }
 
