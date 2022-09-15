@@ -135,19 +135,19 @@ img {
 
 /****/
 
-.choice-per-wrapp {
+.choice-wrapp {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
 }
 
-.choice-per-col {
+.choice-col {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     padding: 0 15px;
 }
 
-.choice-per-col-box {
+.choice-col-box {
     /* border: 1px solid #93882A; */
     background-color: #f5f5f5;
     border-radius: 7px;
@@ -157,13 +157,13 @@ img {
     transition: filter 600ms ease;
 }
 
-.choice-per-col:first-child .choice-per-col-box {
+.choice-col:first-child .choice-col-box {
     filter: grayscale(0);
     background-color: #ffffff;
     border: 1px solid #631aff;
 }
 
-.choice-per-col-box span {
+.choice-col-box span {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -173,11 +173,11 @@ img {
     color: #fff;
 }
 
-.choice-per-col:first-child .choice-per-col-box span {
+.choice-col:first-child .choice-col-box span {
     background: #631aff;
 }
 
-.choice-per-col-box h5 {
+.choice-col-box h5 {
     margin: 0;
     display: flex;
     width: 100%;
@@ -186,16 +186,16 @@ img {
     font-size: 11px;
 }
 
-.choice-per-col-box h5 img {
+.choice-col-box h5 img {
     width: 35px;
     margin-right: 10px;
 }
 
-.choice-per-col-box p {
+.choice-col-box p {
     font-size: 10px;
 }
 
-.choice-per-col-box .dotted-list li {
+.choice-col-box .dotted-list li {
     font-size: 10px;
 }
 
