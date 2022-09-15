@@ -1,0 +1,143 @@
+/* ================================= */
+
+/* ---------- Cartouche CSS ---------- */
+
+/* ================================= */
+
+
+.cartouche {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    // line-height: 16px;
+}
+
+.cartouche-left {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 1px solid #fff;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cartouche-right {
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid #fff;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-violet {
+    background: #631aff;
+    border: 1px solid #631aff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg-gris {
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.border-violet {
+    border: 1px solid #631aff;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.border-gris {
+    border: 1px solid #f5f5f5;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.cartouche h6 {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+}
+
+.bg-violet p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+.bg-violet p span {
+    color: #FFB4C1;
+}
+
+.icon-number-legend-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-number-legend-wrapper .icon-img {
+    margin-right: 20px;
+}
+
+.icon-img img {
+    min-width: 25px;
+    max-width: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.icon-number-legend-wrapper .icon-img img {
+    min-width: 40px;
+    max-width: 75px;
+    width: 100%;
+    height: auto;
+}
+
+.big-number {
+    display: block flex;
+    align-items: center;
+    color: #631AFF;
+    margin: 0;
+    font-family: 'Gt ultra fine';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    display: block;
+    min-width: 100px;
+}
+
+.big-number.smaller {
+    font-size: 18px;
+}
+
+.big-number-legend {
+    display: block;
+    color: #93882A;
+    font-size: 12px;
+    line-height: 16px;
+}
