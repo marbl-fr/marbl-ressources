@@ -137,17 +137,22 @@ img {
 
 .choice-wrapp {
     display: flex;
+    flex-direction: column;
+}
+
+.option-wrapp {
+    display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
 }
 
-.choice-col {
+.option-col {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     padding: 0 15px;
 }
 
-.choice-col-box {
+.option-col-box {
     /* border: 1px solid #93882A; */
     background-color: #f5f5f5;
     border-radius: 7px;
@@ -157,13 +162,13 @@ img {
     transition: filter 600ms ease;
 }
 
-.choice-col:first-child .choice-col-box {
+.option-col:first-child .option-col-box {
     filter: grayscale(0);
     background-color: #ffffff;
     border: 1px solid #631aff;
 }
 
-.choice-col-box span {
+.option-col-box span {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -173,11 +178,11 @@ img {
     color: #fff;
 }
 
-.choice-col:first-child .choice-col-box span {
+.option-col:first-child .option-col-box span {
     background: #631aff;
 }
 
-.choice-col-box h5 {
+.option-col-box h5 {
     margin: 0;
     display: flex;
     width: 100%;
@@ -186,16 +191,16 @@ img {
     font-size: 11px;
 }
 
-.choice-col-box h5 img {
+.option-col-box h5 img {
     width: 35px;
     margin-right: 10px;
 }
 
-.choice-col-box p {
+.option-col-box p {
     font-size: 10px;
 }
 
-.choice-col-box .dotted-list li {
+.option-col-box .dotted-list li {
     font-size: 10px;
 }
 
