@@ -282,7 +282,8 @@ h6 {
 }
 
 .plain-text-box p,
-.plain-text-box ul li .plain-text-box ol li {
+.plain-text-box ul li,
+.plain-text-box ol li {
     font-family: 'silka-regular-webfont';
     font-style: normal;
     font-weight: 400;
