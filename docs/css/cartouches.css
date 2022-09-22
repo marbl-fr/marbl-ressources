@@ -123,6 +123,26 @@
     height: auto;
 }
 
+.icon-xl {
+    width: 75px;
+    height: auto;
+}
+
+.icon-l {
+    width: 55px;
+    height: auto;
+}
+
+.icon-m {
+    width: 35px;
+    height: auto;
+}
+
+.icon-s {
+    width: 20px;
+    height: auto;
+}
+
 .icon-number-legend-wrapper .icon-img img {
     min-width: 40px;
     max-width: 75px;
