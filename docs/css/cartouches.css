@@ -79,7 +79,8 @@
 .bg-violet h3,
 .bg-violet h4,
 .bg-violet h5,
-.bg-violet h6 {
+.bg-violet h6,
+.bg-violet .italic-note {
     color: #fff;
 }
 
