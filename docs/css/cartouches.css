@@ -80,11 +80,21 @@
 .bg-violet h4,
 .bg-violet h5,
 .bg-violet h6,
-.bg-violet .italic-note {
+.bg-violet .italic-note,
+.bg-violet ol li,
+.bg-violet ul li {
     color: #fff;
 }
 
-.bg-violet p span {
+.bg-violet p span,
+.bg-violet h2 span,
+.bg-violet h3 span,
+.bg-violet h4 span,
+.bg-violet h5 span,
+.bg-violet h6 span,
+.bg-violet .italic-note span,
+.bg-violet ol li span,
+.bg-violet ul li span {
     color: #FFB4C1;
 }
 
