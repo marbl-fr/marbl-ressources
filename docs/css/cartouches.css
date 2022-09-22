@@ -114,6 +114,10 @@
     margin-right: auto;
 }
 
+.icon-img.aligned-left {
+    margin-left: 0px;
+}
+
 .icon-number-legend-wrapper .icon-img {
     margin-right: 20px;
 }
