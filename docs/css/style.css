@@ -263,13 +263,10 @@ h6 {
     font-size: 14px;
 }
 
-.text-card-wrapp ul {
+.text-card-wrapp ul,
+.text-card-wrapp ol {
     margin: 0 0 0 25px;
     padding: 0;
-}
-
-.text-card-wrapp ul li {
-    /* font-size: 13px; WHY IS IT DIFFERENT ? */
 }
 
 /** Plain text box **/
@@ -285,7 +282,7 @@ h6 {
 }
 
 .plain-text-box p,
-.plain-text-box ul li {
+.plain-text-box ul li .plain-text-box ol li {
     font-family: 'silka-regular-webfont';
     font-style: normal;
     font-weight: 400;
