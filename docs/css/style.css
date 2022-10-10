@@ -218,12 +218,12 @@ img {
     margin-top: 30px;
     overflow: hidden;
     padding-bottom: 15px;
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
 }
 
 .text-card-box {
     padding: 7px 20px;
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
 }
 
 .text-card-wrapp h3 {
@@ -280,7 +280,7 @@ h6 {
     overflow: hidden;
     padding: 20px 35px;
     margin-top: 30px;
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
 }
 
 .plain-text-box p,
